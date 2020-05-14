@@ -1,3 +1,13 @@
+variables:
+  ml-ws-connection: 'azmldemows'
+  ml-ws: 'aml-demo'
+  ml-rg: 'aml-demo'
+  ml-ct: 'cpu-cluster-1'
+  ml-path: 'models/diabetes'
+  ml-exp: 'exp-test'
+  ml-model-name: 'diabetes-model'
+  ml-aks-name: 'aks-prod'
+
 trigger:
 - master
 
